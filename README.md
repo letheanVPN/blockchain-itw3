@@ -701,7 +701,7 @@ and its home is the data directory specified in the [example
 config](utils/conf/monerod.conf).
 
 If you're on Mac, you may need to add the `--max-concurrency 1` option to
-monero-wallet-cli, and possibly monerod, if you get crashes refreshing.
+lethean-wallet-cli, and possibly letheand, if you get crashes refreshing.
 
 ## Internationalization
 
@@ -764,7 +764,7 @@ As of April 2022, the full Monero blockchain file is about 130 GB. One can store
 A pruned blockchain can only serve part of the historical chain data to other peers, but is otherwise identical in
 functionality to the full blockchain.
 To use a pruned blockchain, it is best to start the initial sync with `--prune-blockchain`. However, it is also possible
-to prune an existing blockchain using the `monero-blockchain-prune` tool or using the `--prune-blockchain` `monerod` option
+to prune an existing blockchain using the `lethean-blockchain-prune` tool or using the `--prune-blockchain` `monerod` option
 with an existing chain. If an existing chain exists, pruning will temporarily require disk space to store both the full
 and pruned blockchains.
 

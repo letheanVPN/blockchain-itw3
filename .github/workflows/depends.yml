@@ -107,5 +107,5 @@ jobs:
       with:
         name: ${{ matrix.toolchain.host }}
         path: |
-          ${{ github.workspace }}/build/${{ matrix.toolchain.host }}/release/bin/monero-wallet-cli*
-          ${{ github.workspace }}/build/${{ matrix.toolchain.host }}/release/bin/monerod*
+          ${{ github.workspace }}/build/${{ matrix.toolchain.host }}/release/bin/lethean-wallet-cli*
+          ${{ github.workspace }}/build/${{ matrix.toolchain.host }}/release/bin/letheand*
